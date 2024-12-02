@@ -1,0 +1,137 @@
+Index: A2.sql
+===================================================================
+diff --git a/A2.sql b/A2.sql
+deleted file mode 100644
+--- a/A2.sql	(revision 780ad45d7251fa30f584637c0348f263afe655ba)
++++ /dev/null	(revision 780ad45d7251fa30f584637c0348f263afe655ba)
+@@ -1,18 +0,0 @@
+-USE softwaretesting;
+-
+--- Create User table
+-CREATE TABLE User (
+-    userId INT PRIMARY KEY AUTO_INCREMENT,
+-    Name VARCHAR(100) NOT NULL,
+-    Email VARCHAR(100) NOT NULL UNIQUE,
+-    Password VARCHAR(255) NOT NULL
+-);
+-
+--- Insert dummy data into User table
+-INSERT INTO User (Name, Email, Password)
+-VALUES 
+-    ('John Doe', 'johndoe@example.com', 'password123'),
+-    ('Jane Smith', 'janesmith@example.com', 'password456'),
+-    ('Mike Johnson', 'mikejohnson@example.com', 'password789'),
+-    ('Alice Brown', 'alicebrown@example.com', 'password101'),
+-    ('Tom Clark', 'tomclark@example.com', 'password202');
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"bf8fa38e-b6be-40f0-9889-e81c38a95175\" name=\"Changes\" comment=\"pom added\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/.gitignore\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/dataSources.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/libraries/mysql_connector_j_9_0.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/modules.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/vcs.xml\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/abdullahdarofficial/Assignment_2.git\",\r\n    \"accountId\": \"3484f234-c9f4-4855-9c06-a0693ed5630b\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 0\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"2pfnHtOfusFF2hzUqDt0dIOvarN\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.LoginApp.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11\" />\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"bf8fa38e-b6be-40f0-9889-e81c38a95175\" name=\"Changes\" comment=\"\" />\r\n      <created>1733165912934</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1733165912934</updated>\r\n      <workItem from=\"1733165913959\" duration=\"319000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"pom added\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1733166148816</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1733166148816</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"pom added\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"pom added\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 780ad45d7251fa30f584637c0348f263afe655ba)
++++ b/.idea/workspace.xml	(date 1733168023992)
+@@ -4,13 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="bf8fa38e-b6be-40f0-9889-e81c38a95175" name="Changes" comment="pom added">
+-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_9_0.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
++    <list default="true" id="bf8fa38e-b6be-40f0-9889-e81c38a95175" name="Changes" comment="a2 added">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LoginApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LoginApp.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -20,6 +16,12 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
++  "lastFilter": {
++    "state": "OPEN",
++    "assignee": "abdullahdarofficial"
++  }
++}]]></component>
+   <component name="GithubPullRequestsUISettings"><![CDATA[{
+   "selectedUrlAndAccountId": {
+     "url": "https://github.com/abdullahdarofficial/Assignment_2.git",
+@@ -40,6 +42,7 @@
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "git-widget-placeholder": "master",
+     "kotlin-language-version-configured": "true",
++    "last_opened_file_path": "C:/Users/abdul/IdeaProjects/old/m/Assignment_2",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+     "node.js.selected.package.eslint": "(autodetect)",
+@@ -48,6 +51,11 @@
+     "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
++  <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="C:\Users\abdul\IdeaProjects\old\m\Assignment_2" />
++    </key>
++  </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+@@ -64,7 +72,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1733165912934</updated>
+-      <workItem from="1733165913959" duration="319000" />
++      <workItem from="1733165913959" duration="2096000" />
+     </task>
+     <task id="LOCAL-00001" summary="pom added">
+       <option name="closed" value="true" />
+@@ -74,7 +82,31 @@
+       <option name="project" value="LOCAL" />
+       <updated>1733166148816</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="pom added">
++      <option name="closed" value="true" />
++      <created>1733166288196</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1733166288196</updated>
++    </task>
++    <task id="LOCAL-00003" summary="pom added">
++      <option name="closed" value="true" />
++      <created>1733166343783</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1733166343783</updated>
++    </task>
++    <task id="LOCAL-00004" summary="a2 added">
++      <option name="closed" value="true" />
++      <created>1733166956256</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1733166956256</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -82,6 +114,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="pom added" />
+-    <option name="LAST_COMMIT_MESSAGE" value="pom added" />
++    <MESSAGE value="a2 added" />
++    <option name="LAST_COMMIT_MESSAGE" value="a2 added" />
+   </component>
+ </project>
+\ No newline at end of file

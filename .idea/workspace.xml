@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf8fa38e-b6be-40f0-9889-e81c38a95175" name="Changes" comment="pom added">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="bf8fa38e-b6be-40f0-9889-e81c38a95175" name="Changes" comment="a2 added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LoginApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LoginApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +16,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "abdullahdarofficial"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/abdullahdarofficial/Assignment_2.git",
@@ -40,6 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/abdul/IdeaProjects/old/m/Assignment_2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,6 +51,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\abdul\IdeaProjects\old\m\Assignment_2" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -64,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733165912934</updated>
-      <workItem from="1733165913959" duration="319000" />
+      <workItem from="1733165913959" duration="2096000" />
     </task>
     <task id="LOCAL-00001" summary="pom added">
       <option name="closed" value="true" />
@@ -74,7 +82,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733166148816</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pom added">
+      <option name="closed" value="true" />
+      <created>1733166288196</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733166288196</updated>
+    </task>
+    <task id="LOCAL-00003" summary="pom added">
+      <option name="closed" value="true" />
+      <created>1733166343783</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733166343783</updated>
+    </task>
+    <task id="LOCAL-00004" summary="a2 added">
+      <option name="closed" value="true" />
+      <created>1733166956256</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733166956256</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pom added" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom added" />
+    <MESSAGE value="a2 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="a2 added" />
   </component>
 </project>
