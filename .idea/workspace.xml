@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf8fa38e-b6be-40f0-9889-e81c38a95175" name="Changes" comment="a2 added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LoginApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LoginApp.java" afterDir="false" />
-    </list>
+    <list default="true" id="bf8fa38e-b6be-40f0-9889-e81c38a95175" name="Changes" comment="test file added." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,21 +13,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "abdullahdarofficial"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;abdullahdarofficial&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/abdullahdarofficial/Assignment_2.git",
-    "accountId": "3484f234-c9f4-4855-9c06-a0693ed5630b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/abdullahdarofficial/Assignment_2.git&quot;,
+    &quot;accountId&quot;: &quot;3484f234-c9f4-4855-9c06-a0693ed5630b&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2pfnHtOfusFF2hzUqDt0dIOvarN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,17 +39,21 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/abdul/IdeaProjects/old/m/Assignment_2",
+    "last_opened_file_path": "C:/Users/abdul/IdeaProjects/old/m/Assignment_2/src/test/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\abdul\IdeaProjects\old\m\Assignment_2\src\test\java" />
       <recent name="C:\Users\abdul\IdeaProjects\old\m\Assignment_2" />
     </key>
   </component>
@@ -72,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733165912934</updated>
-      <workItem from="1733165913959" duration="2096000" />
+      <workItem from="1733165913959" duration="2401000" />
     </task>
     <task id="LOCAL-00001" summary="pom added">
       <option name="closed" value="true" />
@@ -106,15 +107,43 @@
       <option name="project" value="LOCAL" />
       <updated>1733166956256</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="a2 added">
+      <option name="closed" value="true" />
+      <created>1733168231257</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733168231257</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test file added.">
+      <option name="closed" value="true" />
+      <created>1733168328451</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733168328451</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pom added" />
     <MESSAGE value="a2 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="a2 added" />
+    <MESSAGE value="test file added." />
+    <option name="LAST_COMMIT_MESSAGE" value="test file added." />
   </component>
 </project>
