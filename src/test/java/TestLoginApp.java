@@ -8,7 +8,7 @@ public class TestLoginApp {
 
     private static final String DB_URL = "jdbc:mysql://localhost:3306/softwaretesting";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "abdullah";
+    private static final String DB_PASSWORD = "12345678";
 
     @Test
     public void testValidLogin() {
@@ -75,40 +75,21 @@ public class TestLoginApp {
     }
 
     @Test
-    public void testEmptyFields() {
+    public void testValidLoginFailsForIncorrectImplementation() {
         LoginApp loginApp = new LoginApp();
 
-        // Simulating empty email and password
-        String emptyEmail = "";
-        String emptyPassword = "";
+        // Simulating valid login credentials
+        String validEmail = "johndoe@example.com";
+        String validPassword = "password123";
 
-        boolean isAuthenticated = loginApp.authenticateUser(emptyEmail, emptyPassword);
+        // Add a test case where the password is incorrect but the email exists
+        String incorrectPassword = "wrongPassword123";
 
-        // Asserts: Ensure the user is NOT authenticated when fields are empty
-        assertFalse(isAuthenticated, "User should not be authenticated with empty credentials");
+        // Attempt to authenticate with correct email and incorrect password
+        boolean isAuthenticated = loginApp.authenticateUser(validEmail, incorrectPassword);
 
-        // Check for empty email and password handling
-        assertEquals("", emptyEmail, "Email should be empty");
-        assertEquals("", emptyPassword, "Password should be empty");
-
-        // Check if error message is triggered
-        // You would use a mock here for testing GUI components or an error message handling logic
-        // assertEquals("Fields cannot be empty", getErrorMessage());
-
-        // Ensure that no user is authenticated
-        try (Connection conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD)) {
-            String query = "SELECT * FROM User WHERE Email = ? AND Password = ?";
-            PreparedStatement stmt = conn.prepareStatement(query);
-            stmt.setString(1, emptyEmail);
-            stmt.setString(2, emptyPassword);
-            ResultSet rs = stmt.executeQuery();
-
-            // Asserts: Ensure no user is found with empty fields
-            assertFalse(rs.next(), "No user should be found with empty email or password");
-        } catch (SQLException e) {
-            e.printStackTrace();
-            fail("Database query failed");
-        }
+        // The test will fail because the current implementation only checks email
+        assertFalse(isAuthenticated, "User should not be authenticated with incorrect password");
     }
 
     @Test
