@@ -1,6 +1,6 @@
 USE softwaretesting;
 
--- Create User table
+-- Create User table updated
 CREATE TABLE User (
     userId INT PRIMARY KEY AUTO_INCREMENT,
     Name VARCHAR(100) NOT NULL,
