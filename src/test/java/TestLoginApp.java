@@ -8,7 +8,7 @@ public class TestLoginApp {
 
     private static final String DB_URL = "jdbc:mysql://localhost:3306/softwaretesting";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "abdullah";
+    private static final String DB_PASSWORD = "12345678";
 
     @Test
     public void testValidLogin() {
