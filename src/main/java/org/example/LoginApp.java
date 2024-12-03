@@ -25,7 +25,7 @@ public class LoginApp {
             PreparedStatement stmt = conn.prepareStatement(query);
             stmt.setString(1, email);
             ResultSet rs = stmt.executeQuery();
-                //sasdadsad asdasd
+                //sasdads
             if (rs.next()) {
                 userName = rs.getString("Name");
             }
