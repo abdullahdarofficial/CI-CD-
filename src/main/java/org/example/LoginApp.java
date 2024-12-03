@@ -18,7 +18,7 @@ public class LoginApp {
     // removed GUI
     }
 
-    String authenticateUser(String email, String password) {
+    public Boolean authenticateUser(String email, String password) {
         String userName = null;
         try (Connection conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD)) {
             String query = "SELECT name FROM User WHERE Email = ?";
@@ -34,7 +34,11 @@ public class LoginApp {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return userName;
+
+        if (userName != null) {
+            return true;
+        }
+        return false;
     }
 
     public static void main(String[] args) {
