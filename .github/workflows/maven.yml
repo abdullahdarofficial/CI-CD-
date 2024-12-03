@@ -35,13 +35,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Set up JDK 11
+      - name: Set up Java
         uses: actions/setup-java@v3
         with:
           java-version: '23'
           distribution: 'temurin'
           
-      - name: Wait for MySQL to be ready
+      - name: Wait for MySQL
         run: |
           for i in {1..10}; do
             if mysqladmin ping -h 127.0.0.1 -P 3306 --silent; then
