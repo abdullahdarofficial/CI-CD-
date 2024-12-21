@@ -1,1 +1,3 @@
-Abdullah Dar 21L7512 BSCS 7C SOFTWARE TESTING
+Developed and implemented a robust CI/CD pipeline to automate and streamline the software development lifecycle. The pipeline integrates essential testing and deployment processes, ensuring continuous delivery with minimal manual intervention. It performs comprehensive checks, including code quality analysis, unit testing, integration testing, and security scans. 
+
+The system is designed to ensure early detection of bugs and vulnerabilities, improving overall code quality and reducing deployment risks. Leveraging tools like Jenkins and GitHub Actions, the pipeline orchestrates tasks such as automated builds, testing, and seamless deployments in a containerized environment using Docker. It supports rapid iteration, enhances team collaboration, and significantly reduces time-to-market for new features and updates.
